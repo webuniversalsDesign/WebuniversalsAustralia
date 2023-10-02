@@ -202,10 +202,10 @@ const Index3 = () => {
                 Are you looking for a website that reflects the true spirit of your business and captures the hearts of your Australian audience? Look no further! Since 2010, Web Universals has been crafting awe-inspiring web solutions with an Australian touch that resonates with businesses and their customers..
                 </p>
 
-                {/* <h3>Australia's Premier <br/> Website Design Company </h3>
+                <h3>Australia's Premier <br/> Website Design Company </h3>
                 <p>
                 At Web Universals, we take immense pride in being a trailblazer in Australia's website design and development. Our passion for crafting visually stunning, highly functional, and user-friendly websites has earned us the reputation of being Australia's top website design company.
-                </p> */}
+                </p>
 
                 <h3>Best in Class Web Solutions </h3>
                 <p>

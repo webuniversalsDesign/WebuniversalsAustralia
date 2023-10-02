@@ -1,0 +1,509 @@
+import Layout from "@/src/layout/Layout";
+import Link from "next/link";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { latestswiper, partnerswiper, projectsswiper } from "@/src/sliderProps";
+
+
+const BlogSinglePost = () => {
+  return (
+    <Layout headerExtraClass={"three"} pageName={"Blog Single Post"}>
+      <section>
+        <div className="container">
+          <div className="title-blog">
+            <h2>HOW TO CHOOSE WEB DESIGN COMPANY AUSTRALIA</h2>
+           
+          </div>
+          <div className="row">
+            <div className="col-xl-8">
+              <div className="blog-item">
+                <img alt="img"  src="assets/img/latest-blog-1(1).jpg" />
+                <h6>
+                HOW TO CHOOSE WEB DESIGN COMPANY AUSTRALIA
+                </h6>
+                <p className="p-30">
+                Posted on May 22, 2017 at 7:39 am by admin / 0 <br />
+                  <hr />
+                Steps for finding the correct web design Company Australia for you
+                </p>
+                <h6>Assess your requirements:</h6>
+                <p>An expert Web design company will work with you rather than for you.
+                   It will assist you in defining your association supplies. And make sure about your requirement
+                   <br />
+                   Ask your Social Circle and relations:
+                   <br />
+                   Ask your associates, colleagues, and family which web Design Company provides those services
+                    and at what rates. Also confirm about the services that they get in the selected package
+                   </p>
+                   <h6>Short List</h6>
+                   <p>Shortlist of 4-5 web design firms that are most excellent suited for your project</p>
+                   <h6>Assess their work:</h6>
+                   <p>When it’s said assess, it means you have to estimate their portfolio, sort of websites they have designed.
+                     It is necessary that you investigate a web design firm’s work so you can appraise their potential and quality standards.</p>
+                   <h6>Get Proposals</h6>
+                   <p>Good web design firm will for all time be ready to submit a proposal for your
+                     website along with defined timeline, deliverables,
+                     and terms & conditions. When assessing proposal, look how they 
+                     talk with you using their website and digital documents.</p>
+                   <h6>Assess Proposals</h6>
+                   <p>After your association has expected all proposals, review and evaluate 
+                    them with each other. How do they fare in terms of presentation? Do they
+                     present improve paths for your project, going beyond the requirements of 
+                      the instant goals outlined? So by doing the above mention steps you can 
+                      easily choose the best web designing firm</p>
+                {/* <div className="quote-bg">
+                  <img alt="quote" src="assets/img/quote.png" />
+                  <h6>
+                    “ Phasellus volutpat, metus eget egestas mollis, lacus lacus
+                    blandit dui, id egestas quam mauris ut lacus. Aenean leo
+                    ligula, porttitor eu, consequat vitae, eleifend ac, enim.
+                    Suspendisse potenti. In turpis. ”
+                  </h6>
+                </div> */}
+              </div>
+              {/* <div className="row align-items-center">
+                <div className="col-lg-5 ">
+                  <img
+                    alt="img"
+                    className="w-100"
+                    src="assets/img/blog-2.jpg"
+                  />
+                </div>
+                <div className="col-lg-7 pl-60">
+                  <h6 className="pt-lg-0 pt-5 pb-4">
+                    Donec modio, faucibusat, scelerisque quis, convallis inisi.
+                    Curabitur ullamcorper ultricies nisi.
+                  </h6>
+                  <p>
+                    Quis ipsum suspendisse ultrices gravida. Risus commodo
+                    viverra maecenas accumsan lacus vel facilisis. Maecenas
+                    tempus, tellus eget condimentum rhoncus, sem quam semper
+                    libero, sit amet adipiscing sem neque sed ipsum. <br />
+                    <br />
+                    Class aptent taciti sociosqu ad litora torquent per conubia
+                    nostra, per inceptos hymenaeos. Donec mi odio, faucibus at,
+                    scelerisque quis, convallis in, nisi. Curabitur ullamcorper
+                    ultricies nisi.
+                  </p>
+                </div>
+              </div> */}
+              {/* <p className="p-30">
+                Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
+                maecenas accumsan lacus vel facilisis. Maecenas tempus, tellus
+                eget condimentum rhoncus, sem quam semper libero, sit amet
+                adipiscing sem neque sed ipsum. Class aptent taciti sociosqu ad
+                litora torquent per conubia nostra, per inceptos hymenaeos.
+              </p> */}
+              {/* <div className="next-previous-page two">
+                <div className="container">
+                  <div className="next-previous">
+                    <div className="prev">
+                      <a href="#">
+                        <svg
+                          version="1.1"
+                          xmlns="http://www.w3.org/2000/svg"
+                          xmlnsXlink="http://www.w3.org/1999/xlink"
+                          x="0px"
+                          y="0px"
+                          viewBox="0 0 476.213 476.213"
+                          style={{
+                            enableBackground: "new 0 0 476.213 476.213",
+                          }}
+                          xmlSpace="preserve"
+                        >
+                          <polygon
+                            points="405.606,167.5 384.394,188.713 418.787,223.106 0,223.106 0,253.106 418.787,253.106 384.394,287.5 
+                405.606,308.713 476.213,238.106 "
+                          />
+                        </svg>
+                        prev page
+                      </a>
+                    </div>
+                    <div className="next">
+                      <a href="#">
+                        next page
+                        <svg
+                          version="1.1"
+                          xmlns="http://www.w3.org/2000/svg"
+                          xmlnsXlink="http://www.w3.org/1999/xlink"
+                          x="0px"
+                          y="0px"
+                          viewBox="0 0 476.213 476.213"
+                          style={{
+                            enableBackground: "new 0 0 476.213 476.213",
+                          }}
+                          xmlSpace="preserve"
+                        >
+                          <polygon
+                            points="405.606,167.5 384.394,188.713 418.787,223.106 0,223.106 0,253.106 418.787,253.106 384.394,287.5 
+                405.606,308.713 476.213,238.106 "
+                          />
+                        </svg>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div> */}
+            </div>
+            <div className="col-xl-4 pl-60 pt-lg-5 pb-lg-5 pt-2 pb-2">
+              <ul className="sidebar">
+                <li>
+                  <h4>RECENT POSTS </h4>
+                  <hr />
+                  <span><Link legacyBehavior href="#">How to Choose web design Company Australia</Link> <br />
+                  <Link legacyBehavior href="#">Best website design gold coast Australia</Link> <br />
+                  <Link legacyBehavior href="#">e-commerce development Brisbane</Link> <br />
+                  <Link legacyBehavior href="#">Increase Customers by mean of the Website Design Services</Link> <br />
+                  <Link legacyBehavior href="#">e-commerce development company</Link> <br /></span>
+                </li>
+
+                <li>
+                  <h4>RECENT COMMENTS</h4>
+                  <hr />
+                  <span>""</span>
+                </li>
+
+                <li>
+                  <h4>ARCHIVES </h4>
+                  <hr />
+              <span><Link legacyBehavior href="#">May 2017</Link> <br />
+                  <Link legacyBehavior href="#">April 2017</Link> <br />
+                  <Link legacyBehavior href="#">March 2017</Link> <br />
+                  <Link legacyBehavior href="#">February 2017</Link> <br />
+                  <Link legacyBehavior href="#">January 2017</Link> <br />
+                  <Link legacyBehavior href="#">December 2016</Link> <br />
+                  <Link legacyBehavior href="#">November 2016</Link> <br />
+                  <Link legacyBehavior href="#">November 2015</Link> <br />
+                  </span>
+                </li>
+
+                <li>
+                  <h4>CATEGORIES</h4>
+                  <hr />
+                  <span>
+                    <Link IlegacyBehavior href="#">Uncategorized</Link>
+                    
+                    </span><br/>
+                    <hr />
+                  <span>
+                  <Link IlegacyBehavior href="#">Website design & Development</Link>
+                    </span><br/>
+                </li>
+
+
+                <li>
+                  <h4>META</h4>
+                  <hr />
+                  <span>
+                  <Link IlegacyBehavior href="#">
+                    Log in</Link>
+                   </span><br/><br/>
+                  <span>
+                  <Link IlegacyBehavior href="#">Entries RSS</Link>
+                    </span><br/><br/>
+                  <span>
+                  <Link IlegacyBehavior href="#">Comments RSS</Link>
+                    
+                    </span><br/><br/>
+                  <span>
+                  <Link IlegacyBehavior href="#">WordPress.org</Link>
+                  </span><br/><br/>
+                </li>
+
+                <li>
+                  <h4>Share post :</h4>
+                  <ul className="brandicon">
+                    <li>
+                      <a href="#">
+                        <i className="fa-brands fa-facebook-f" />
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i className="fa-brands fa-twitter" />
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i className="fa-brands fa-instagram" />
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i className="fa-brands fa-linkedin-in" />
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      {/* <section className="gap blog-recent-posts">
+        <div className="container">
+          <h4 className="mb-5">Recent Posts</h4>
+          <div className="row">
+            <div className="col-xl-3 col-lg-4 col-md-6">
+              <div className="latest-blog-post">
+                <img
+                  alt="img"
+                  className="w-100"
+                  src="assets/img/latest-blog-1.jpg"
+                />
+                <a href="#">
+                  <i className="fa-regular fa-clock" />
+                  <span>August 10, 2023</span>
+                </a>
+                <a href="#">
+                  <h4>Class aptent taciti sociosqu ad litora torquent per.</h4>
+                </a>
+                <span>by Jane Luna | Digital Strategy</span>
+              </div>
+            </div>
+            <div className="col-xl-3 col-lg-4 col-md-6">
+              <div className="latest-blog-post">
+                <img
+                  alt="img"
+                  className="w-100"
+                  src="assets/img/latest-blog-2.jpg"
+                />
+                <a href="#">
+                  <i className="fa-regular fa-clock" />
+                  <span>August 10, 2023</span>
+                </a>
+                <a href="#">
+                  <h4>Pellentesque odionisi euismod in,pharetra ultricies.</h4>
+                </a>
+                <span>by Jane Luna | Digital Strategy</span>
+              </div>
+            </div>
+            <div className="col-xl-3 col-lg-4 col-md-6">
+              <div className="latest-blog-post">
+                <img
+                  alt="img"
+                  className="w-100"
+                  src="assets/img/latest-blog-3.jpg"
+                />
+                <a href="#">
+                  <i className="fa-regular fa-clock" />
+                  <span>August 10, 2023</span>
+                </a>
+                <a href="#">
+                  <h4>Nam nulla quam, gravida non.</h4>
+                </a>
+                <span>by Jane Luna | Digital Strategy</span>
+              </div>
+            </div>
+            <div className="col-xl-3 col-lg-4 col-md-6">
+              <div className="latest-blog-post mb-0">
+                <img
+                  alt="img"
+                  className="w-100"
+                  src="assets/img/latest-blog-4.jpg"
+                />
+                <a href="#">
+                  <i className="fa-regular fa-clock" />
+                  <span>August 10, 2023</span>
+                </a>
+                <a href="#">
+                  <h4>Donec nec justo eget felis facilisis fermentum.</h4>
+                </a>
+                <span>by Jane Luna | Digital Strategy</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> */}
+      <section className="gap reaview-section">
+        <div className="container">
+          <div className="heading">
+            <h6>Uncategorized</h6>
+            <h2>RELATED POSTS</h2>
+            <img alt="line" src="assets/img/headingline.png" />
+          </div>
+          <Swiper {...partnerswiper} className="swiper-container partnerswiper">
+            <div className="swiper-wrapper">
+              <SwiperSlide className="swiper-slide">
+              <div className="reaview">
+                  {/* <img alt="man" src="assets/img/reaview-3.jpg" /> */}
+                  <span>
+                  <Link IlegacyBehavior href="#"> BEST WEBSITE DESIGN GOLD COAST AUSTRALIA</Link>
+                  
+                    <br />
+                  </span>
+                  <p>May 10, 2017 at 6:17 am admin/0</p>
+                  <div className="boder"/>
+                  <p>
+                    “These days everyone wants to have its own site for their business. To get a&#8230;”
+                  </p>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide className="swiper-slide">
+              <div className="reaview">
+                  {/* <img alt="man" src="assets/img/reaview-3.jpg" /> */}
+                  <span>
+                  <Link IlegacyBehavior href="#">E-COMMERCE DEVELOPMENT BRISBANE</Link>
+                  
+                    <br />
+                  </span>
+                  <p>April 28, 2017 at 5:15 am admin/0</p>
+                  <div className="boder"/>
+                  <p>
+                  "Most small and medium commerce are getting their e-commerce development Brisbane to take on their&#8230;”
+                  </p>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide className="swiper-slide">
+                <div className="reaview">
+                  {/* <img alt="man" src="assets/img/reaview-3.jpg" /> */}
+                  <span>
+                  <Link IlegacyBehavior href="#">E-COMMERCE DEVELOPMENT COMPANY</Link>
+                  
+                    <br />
+                  </span>
+                  <p>March 30, 2017 at 5:32 am admin/0</p>
+                  <div className="boder"/>
+                  <p>
+                    “There is no limit on making the website good-looking and remarkable. It all depends on&#8230;”
+                  </p>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide className="swiper-slide">
+              <div className="reaview">
+                  {/* <img alt="man" src="assets/img/reaview-3.jpg" /> */}
+                  <span>
+                  <Link IlegacyBehavior href="#">SEARCH ENGINE OPTIMIZATION PACKAGES SYDNEY</Link>
+                  
+                    <br />
+                  </span>
+                  <p>March 25, 2017 at 5:00 am admin/0</p>
+                  <div className="boder"/>
+                  <p>
+                    “You obtain SOME visitor to your website but you be familiar with you could be&#8230”
+                  </p>
+                </div>
+              </SwiperSlide>
+            </div>
+            <div className="swiper-button-next">
+              <svg
+                version="1.1"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlnsXlink="http://www.w3.org/1999/xlink"
+                x="0px"
+                y="0px"
+                viewBox="0 0 476.213 476.213"
+                style={{ enableBackground: "new 0 0 476.213 476.213" }}
+                xmlSpace="preserve"
+              >
+                <polygon
+                  points="405.606,167.5 384.394,188.713 418.787,223.106 0,223.106 0,253.106 418.787,253.106 384.394,287.5 
+    405.606,308.713 476.213,238.106 "
+                />
+              </svg>
+            </div>
+            <div className="swiper-button-prev">
+              <svg
+                version="1.1"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlnsXlink="http://www.w3.org/1999/xlink"
+                x="0px"
+                y="0px"
+                viewBox="0 0 476.213 476.213"
+                style={{ enableBackground: "new 0 0 476.213 476.213" }}
+                xmlSpace="preserve"
+              >
+                <polygon
+                  points="405.606,167.5 384.394,188.713 418.787,223.106 0,223.106 0,253.106 418.787,253.106 384.394,287.5 
+    405.606,308.713 476.213,238.106 "
+                />
+              </svg>
+            </div>
+            <div className="swiper-pagination" />
+          </Swiper>
+        </div>
+      </section>
+      <hr />
+
+      <section className="contact-page gap">
+        <div className="container">
+          <div className="heading">
+            <h6>Let's Talk</h6>
+            <h2>LEAVE A REPLY</h2>
+            <img alt="line" src="assets/img/headingline.png" />
+          </div>
+          <div className="row">
+            <div className="col-xl-6 col-lg-6">
+              <form className="content-form">
+                <div className="row">
+                  <div className="col-lg-6">
+                    <input type="text" name="name" placeholder="Your Name *" />
+                  </div>
+                  <div className="col-lg-6">
+                    <input
+                      type="text"
+                      name="name"
+                      placeholder="Your Company *"
+                    />
+                  </div>
+                </div>
+                <input type="text" name="name" placeholder="Your Email *" />
+                <textarea placeholder="Your Message *" defaultValue={""} />
+                <button className="themebtu">Submit</button>
+              </form>
+            </div>
+            <div className="offset-lg-1 col-xl-5 col-lg-5">
+              <ul className="sidebar">
+                <li>
+                  <h4>Address : </h4>
+                  <span>
+                  Ground floor, 8 Gowri Nivas, 13th Cross Rd,
+                    <br />
+                    1st K Block, Rajajinagar, Bengaluru, Karnataka 560010
+                  </span>
+                </li>
+                <li>
+                  <h4>Phone :</h4>
+                  <a href="callto:08 8121 7826">
+                    <span>08 8121 7826</span>
+                  </a>
+                </li>
+                <li>
+                  <h4>Email :</h4>
+                  <a href="mailto:info@webuniversals.com">
+                    <span>info@webuniversals.com</span>
+                  </a>
+                </li>
+                <li>
+                  <h4>Find us :</h4>
+                  <ul className="brandicon">
+                    <li>
+                      <a href="#">
+                        <i className="fa-brands fa-facebook-f" />
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i className="fa-brands fa-twitter" />
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i className="fa-brands fa-instagram" />
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i className="fa-brands fa-linkedin-in" />
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </Layout>
+  );
+};
+export default BlogSinglePost;

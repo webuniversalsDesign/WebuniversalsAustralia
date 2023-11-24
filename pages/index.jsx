@@ -62,9 +62,10 @@ const Index3 = () => {
                 >
                   <div className="container">
                     <div className="heading-boder">
-                      <h2>
-                        Experience the Brilliance of <span>Web Universals </span>
-                      </h2>
+                    
+                      <h1 style={{color:"white", fontSize:"55px",fontWeight:"600"}} >
+                         Website Design Company <br/> Australia 
+                      </h1>
                       <p>Your Gateway to Digital Excellence, Your Partner in Unforgettable Journeys</p>
                       <br />
                       <br />
@@ -189,7 +190,7 @@ const Index3 = () => {
                 /> */}
                 </div>
                 <div className="welcome-text">
-                  <h1 style={{ fontSize: "35px" }}>Website Design Company Australia  </h1>
+                  <h2 style={{ fontSize: "35px" }}>Experience the Brilliance of Web Universals </h2>
                   <br />
 
                   <h3> Discover the Essence of Online Excellence</h3>

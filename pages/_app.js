@@ -33,6 +33,13 @@ const App = ({ Component, pageProps }) => {
   return (
     <Fragment>
       <Head>
+      <title>Website design company australia | webuniversals</title>
+
+<meta name="description" content="Transform your brand's online presence with our top-tier website design services in Australia. Engaging, responsive, and results-driven solutions await." />
+<meta name="keywords" content="Website design company australia" />
+
+<link rel="canonical" href="https://webuniversals.com/" />
+
         <link rel="icon" href="assets/img/logo-icon.png" />
         {/* CSS only */}
         <link

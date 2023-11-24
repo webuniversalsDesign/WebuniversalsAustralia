@@ -38,15 +38,10 @@ const Index3 = () => {
   return (
 
     <>
-      <Head>
-        <title>Website design company australia | webuniversals</title>
+      {/* <Head>
+       
 
-        <meta name="description" content="Transform your brand's online presence with our top-tier website design services in Australia. Engaging, responsive, and results-driven solutions await." />
-        <meta name="keywords" content="Website design company australia" />
-
-        <link rel="canonical" href="https://webuniversals.com/" />
-
-      </Head>
+      </Head> */}
 
       <Layout noHeaderBg headerExtraClass={"two"} blackLogo pageName={"Home 3"}>
         <section>

@@ -18,7 +18,7 @@ const About = () => {
 
 <meta name="description" content="Discover Webuniversals | Your trusted and best website development company. We turn ideas into exceptional online experiences"/>
 <meta name="keywords" content="About Webuniversals,Best  Website development company "/>
-<link rel="canonical" href="https://webuniversals.com/about" />
+<link rel="canonical" href="https://webuniversals.com/About" />
 
 </Head>
        <Layout noHeaderBg pageName={"About"}>

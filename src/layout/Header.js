@@ -91,7 +91,7 @@ const Header = ({ headerExtraClass, noHeaderBg, blackLogo }) => {
                  
 
                   <li>
-                    <Link legacyBehavior href="E-commerce">
+                    <Link legacyBehavior href="e-commerce-website-development-company">
                       e-Commerce Website
                     </Link>
                   </li>
@@ -103,7 +103,7 @@ const Header = ({ headerExtraClass, noHeaderBg, blackLogo }) => {
                   </li>
 
                   <li>
-                    <Link legacyBehavior href="SearchEngineOptimization">
+                    <Link legacyBehavior href="search-engine-optimization">
                     Search Engine  Optimization 
                     </Link>
                   </li>

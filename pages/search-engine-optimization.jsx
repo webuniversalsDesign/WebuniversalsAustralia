@@ -16,7 +16,7 @@ const SearchEngineOptimization = () => {
 
 <meta name="description" content="Webuniversals | The Best Indian SEO Company for Top-Notch SEO Services. Elevate Your Online Presence with Our Expert Solutions"/>
 <meta name="keywords" content="Best seo company ,Top seo services"/>
-<link rel="canonical" href="https://webuniversals.com/SearchEngineOptimization" />
+<link rel="canonical" href="https://webuniversals.com/search-engine-optimization" />
 
 </Head>
 

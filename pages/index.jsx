@@ -38,10 +38,6 @@ const Index3 = () => {
   return (
 
     <>
-      {/* <Head>
-       
-
-      </Head> */}
 
       <Layout noHeaderBg headerExtraClass={"two"} blackLogo pageName={"Home 3"}>
         <section>
@@ -62,10 +58,9 @@ const Index3 = () => {
                 >
                   <div className="container">
                     <div className="heading-boder">
-                    
-                      <h1 style={{color:"white", fontSize:"55px",fontWeight:"600"}} >
-                         Website Design Company <br/> Australia 
-                      </h1>
+                      <h2>
+                        Experience the Brilliance of <span>Web Universals </span>
+                      </h2>
                       <p>Your Gateway to Digital Excellence, Your Partner in Unforgettable Journeys</p>
                       <br />
                       <br />
@@ -190,7 +185,7 @@ const Index3 = () => {
                 /> */}
                 </div>
                 <div className="welcome-text">
-                  <h2 style={{ fontSize: "35px" }}>Experience the Brilliance of Web Universals </h2>
+                  <h1 style={{ fontSize: "35px" }}>Website Design Company Australia  </h1>
                   <br />
 
                   <h3> Discover the Essence of Online Excellence</h3>
@@ -275,7 +270,7 @@ const Index3 = () => {
                     At Web Universals, we believe in delivering timely and cost-effective services without compromising quality. Your satisfaction is paramount, and we strive to exceed your expectations at every step of the journey. </p>
 
                   <div className="card-btn">
-                    <Link href="SearchEngineOptimization" className="themebtu full " style={{ padding: '8px 25px' }}>
+                    <Link href="search-engine-optimization" className="themebtu full " style={{ padding: '8px 25px' }}>
                       Know More
                     </Link>
                   </div>
@@ -327,7 +322,7 @@ const Index3 = () => {
                   </p>
 
                   <div className="card-btn">
-                    <Link href="E-commerce" className="themebtu full " style={{ padding: '8px 25px' }}>
+                    <Link href="e-commerce-website-development-company" className="themebtu full " style={{ padding: '8px 25px' }}>
                       Know More
                     </Link>
                   </div>
